@@ -1,0 +1,57 @@
+#+title: 02 Hardware
+#+author: Sajid Mahmood
+#+source: Google IT Support Professional Certificate
+#+include: Technical Support Fundamentals
+#+week: Week 3
+#+date: <2022-06-01 Wed>
+#+options: toc:2
+
+
+* What's an OS?
+
+** Remote Connection and SSH
+
+*** Remote Connection
+
+Allows us to manage multiple machines from anywhere in the world.
+
+*** Secure Shell (SSH)
+
+A protocol implemented by other programs to securely access one computer from another.
+
++ Popular software to work with SSH, on Linux, OpenSSH program, while on Windows , PuTTY is used.
++ In SSH, a pair of public and private keys is used to authenticate the process.
++ To securely connect to a remote machine, a VPN is used.
+
+*** VPN
+
+Allows you to connect to a private network, like your work network, over the Internet.
+
+** Remote Connections on Windows
+
+*** PuTTY
+
+A free, open source software that you can use to make remote connections through several network protocols, including SSH.
+
++ PuTTY can be used from CL, as `putty.exe --ssh user@ip_address`
++ PuTTY comes with a Plink or PuTTYlink program which can also be used for SSH-ing to other computers.
++ Microsoft provides another way to remotely connect with windows computer via GUI, called Remote Desktop Protocol (RDP).
+
+** Components of an Operating System
+
+*** Operating System
+
+The whole package that manages our computer's resources and lets us interact with it.
+
++ Two main parts
++ 1) Kernel: Storage and file management, processes, memory control, I/O management
++ 2) User Space: Everything out of the scope of the Kernel, like application, CLI tools etc
+
+** Files and File Systems
+
+File storage include three things:
+  1) Data 2) File handling 3) Meta Data
+
+*** Block Storage
+
+Improves faster handling of data because the data isn't stored as one long piece and can be accessed quicker.

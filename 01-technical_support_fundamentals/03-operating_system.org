@@ -1,4 +1,4 @@
-#+title: 02 Hardware
+#+title: 03 Operating Systems
 #+author: Sajid Mahmood
 #+source: Google IT Support Professional Certificate
 #+include: Technical Support Fundamentals
@@ -55,3 +55,91 @@ File storage include three things:
 *** Block Storage
 
 Improves faster handling of data because the data isn't stored as one long piece and can be accessed quicker.
+
+** Process Management
+
+*** Process
+
+A program that's executing, like our internet browser or text editor.
+
+*** Program
+
+An application that we can run, like Chrome.
+
+*** Time slice
+
+A very short interval of time, that gets allocated to a process for CPU execution.
+
+*** Role of Kernel
+
++ Create processes
++ efficiently schedules them
++ Manages how processes are terminated
+
+** Memory Management
+
+*** Virtual Memory
+
+The combination of hard drive space and RAM that acts like memoy that our processes can use.
+
+*** Swap Space
+
+Allocated Space for virtual memory.
+
+** I/O Management
+
++ Kernel does Input/Output devices by managing their intercommunicating and resource management etc.
+
+** Interacting with the OS: User Space
+
+Two ways to interact with the OS
+
++ Shell
+
+  A program that interprets text commands and sends them to the OS to execute.
+
++ GUI
+
+** Logs
+
+Files that record system events on our computer, just like a system's diary.
+
+** The Boot Process
+
+The computer boots in following order.
+
+*** BIOS/UEFI
+
+A low-level software that initializes our computer's hardware to make sure everything is good to go.
+
+*** POST
+
+Power on Self Test(POST) is performed to make sure computer is in proper working order.
+
+*** Boot Device
+
+*** Bootloader
+
+A small program that loads the OS.
+
+*** OS
+
+*** Kernel
+
++ System Processes
++ User Space
+
+
+* Installing an Operating System
+
+** Choosing an OS
+
+** Virtual Machines
+
+** Installing Windows
+
+** Installing Linux
+
+** What is Chrome OS
+
+** Installing Mac OS X

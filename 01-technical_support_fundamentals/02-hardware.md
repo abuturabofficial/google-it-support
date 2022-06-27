@@ -1,32 +1,61 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [The Modern Computer](#the-modern-computer)
+  - [Introduction to Computer Hardware](#introduction-to-computer-hardware)
+    - [Desktops Computers](#desktops-computers)
+    - [Laptops](#laptops)
+    - [Ports](#ports)
+    - [CPU (Central Processing Unit)](#cpu-central-processing-unit)
+    - [RAM (Random Access Memory)](#ram-random-access-memory)
+    - [Hard Drive](#hard-drive)
+    - [Motherboard](#motherboard)
+    - [Power Supply](#power-supply)
+  - [Programs and Hardware](#programs-and-hardware)
+    - [Programs](#programs)
+    - [Hardware](#hardware)
+- [Components](#components)
+  - [CPU](#cpu)
+    - [Instruction Set](#instruction-set)
+    - [CPU Socket Types](#cpu-socket-types)
+    - [Heat Sink](#heat-sink)
+  - [RAM](#ram)
+  - [Motherboards](#motherboards)
+    - [Chipset](#chipset)
+    - [Peripherals](#peripherals)
+    - [Expansion Slots](#expansion-slots)
+    - [Form Factor](#form-factor)
+  - [Storage](#storage)
+    - [kilobyte](#kilobyte)
+  - [Power Supplies](#power-supplies)
+    - [Voltage](#voltage)
+    - [Ampere](#ampere)
+    - [Wattage](#wattage)
+  - [Mobile Devices](#mobile-devices)
+    - [System on a Chip (SoC)](#system-on-a-chip-soc)
+  - [Batteries and Charging Systems](#batteries-and-charging-systems)
+    - [Charge Cycle](#charge-cycle)
+  - [Peripherals](#peripherals-1)
+  - [Projector](#projector)
+- [Starting it Up](#starting-it-up)
+  - [Bios](#bios)
+    - [Drivers](#drivers)
+    - [Power ON Self Test or POST](#power-on-self-test-or-post)
+    - [CMOS Battery](#cmos-battery)
+    - [Reimaging](#reimaging)
+  - [Putting all together](#putting-all-together)
+    - [Building Steps](#building-steps)
+  - [Mobile Device Repair](#mobile-device-repair)
+    - [Factory Reset](#factory-reset)
 
-1.  [The Modern Computer](#org63edb25)
-    1.  [Introduction to Computer Hardware](#org8a8a4f3)
-    2.  [Programs and Hardware](#orgcab7fb9)
-2.  [Components](#org39f1e58)
-    1.  [CPU](#orgf521a88)
-    2.  [RAM](#org15fe6ee)
-    3.  [Motherboards](#orgd6e5274)
-    4.  [Storage](#org4f8e445)
-    5.  [Power Supplies](#orgc161a71)
-    6.  [Mobile Devices](#orgd4957d3)
-    7.  [Batteries and Charging Systems](#orgcd6b949)
-    8.  [Peripherals](#org699270d)
-    9.  [Projector](#org04fe501)
-3.  [Starting it Up](#org6b57928)
-    1.  [Bios](#orgfe49be7)
-    2.  [Putting all together](#org3d5210e)
-    3.  [Mobile Device Repair](#org9a69cd9)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-<a id="org63edb25"></a>
+---
 
 # The Modern Computer
 
-
-<a id="org8a8a4f3"></a>
 
 ## Introduction to Computer Hardware
 
@@ -81,9 +110,6 @@ The body or circulatory system of the computer that connects all the pieces toge
 ### Power Supply
 
 It converts the wall power supply to the format which our computer can use.
-
-
-<a id="orgcab7fb9"></a>
 
 ## Programs and Hardware
 
@@ -148,12 +174,9 @@ Instructions that tell the computer what to do.
     -   Increased power and heat will degrade most PC components faster
 
 
-<a id="org39f1e58"></a>
+---
 
 # Components
-
-
-<a id="orgf521a88"></a>
 
 ## CPU
 
@@ -184,7 +207,7 @@ Literally a list of instructions that our CPU is able to run.
 To cool down CPU, attached with a cooler fan.
 
 
-<a id="org15fe6ee"></a>
+---
 
 ## RAM
 
@@ -206,7 +229,7 @@ To cool down CPU, attached with a cooler fan.
     -   Just like CPU, make sure your RAM module is compatible with your motherboard.
 
 
-<a id="orgd6e5274"></a>
+---
 
 ## Motherboards
 
@@ -259,7 +282,7 @@ There're different sizes of motherboards available in market toady.
         3.  pico-ITX
 
 
-<a id="org4f8e445"></a>
+---
 
 ## Storage
 
@@ -282,7 +305,7 @@ The kilobyte is a multiple of the unit byte for digital information.
 -   In base 2, one kilobyte is 1024 bytes
 
 
-<a id="orgc161a71"></a>
+---
 
 ## Power Supplies
 
@@ -312,7 +335,7 @@ The amount of volts and amps that a device needs.
 -   Power supplies can fail for lots of reasons like burnouts, power surge, or even lightning strikes.
 
 
-<a id="orgd4957d3"></a>
+---
 
 ## Mobile Devices
 
@@ -334,7 +357,7 @@ Very small mobile devices uses system-on-chip or SoC
 Packs the CPU, RAM, and sometimes even the storage onto a single chip
 
 
-<a id="orgcd6b949"></a>
+---
 
 ## Batteries and Charging Systems
 
@@ -354,7 +377,7 @@ Components require to charge batteries:
 One full charge and discharge of a battery
 
 
-<a id="org699270d"></a>
+---
 
 ## Peripherals
 
@@ -389,19 +412,16 @@ Examples:
     It can do power and data transfer
 
 
-<a id="org04fe501"></a>
+---
 
 ## Projector
 
 Projectors are display devices for when you need to share information with people in the same location! Most projectors can be used just like any other display on a computer, and with a few differences, can be troubleshot just like any other display device. For example, projectors can have dead or stuck pixels, and can acquire image burn-in, just like other types of displays.
 
 
-<a id="org6b57928"></a>
+---
 
 # Starting it Up
-
-
-<a id="orgfe49be7"></a>
 
 ## Bios
 
@@ -450,7 +470,7 @@ Following devices can be used for reimaging:
 -   Server accessible through the network
 
 
-<a id="org3d5210e"></a>
+---
 
 ## Putting all together
 
@@ -479,7 +499,7 @@ To build a PC, we need to take care of certain things:
 -   Turn it on plugging it to the monitor, keyboard, mouse and power outlet.
 
 
-<a id="org9a69cd9"></a>
+---
 
 ## Mobile Device Repair
 

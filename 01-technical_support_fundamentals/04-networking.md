@@ -1,27 +1,39 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [What is Networking?](#what-is-networking)
+  - [Basics of Networking](#basics-of-networking)
+    - [Network](#network)
+    - [The Internet](#the-internet)
+    - [The Web](#the-web)
+    - [Networking](#networking)
+  - [Networking Hardware](#networking-hardware)
+    - [Network Stack](#network-stack)
+  - [Language of the Internet](#language-of-the-internet)
+    - [IP](#ip)
+    - [TCP](#tcp)
+  - [The Web](#the-web-1)
+- [Limitations of the Internet](#limitations-of-the-internet)
+  - [History of the Internet](#history-of-the-internet)
+  - [Limitations of the Internet](#limitations-of-the-internet-1)
+    - [Network Address Translation (NAT)](#network-address-translation-nat)
+- [Impact of the Internet](#impact-of-the-internet)
+  - [Impact](#impact)
+    - [Globalization](#globalization)
+  - [Internet of Things (IOT)](#internet-of-things-iot)
+  - [Privacy and Security](#privacy-and-security)
+    - [GDPR (General Data Protection Regulation)](#gdpr-general-data-protection-regulation)
+    - [COPPA (Children Online Privacy Protection Act)](#coppa-children-online-privacy-protection-act)
+    - [Copyright Laws](#copyright-laws)
+    - [Open-source Licenses](#open-source-licenses)
 
-1.  [What is Networking?](#orgd109c16)
-    1.  [Basics of Networking](#orgfd9a6da)
-    2.  [Networking Hardware](#orgf824049)
-    3.  [Language of the Internet](#orga71dc30)
-    4.  [The Web](#org8878027)
-2.  [Limitations of the Internet](#org3a59f75)
-    1.  [History of the Internet](#orge302d46)
-    2.  [Limitations of the Internet](#org3acfc2a)
-3.  [Impact of the Internet](#orgb01fd8c)
-    1.  [Impact](#org4ad2c9a)
-    2.  [Internet of Things (IOT)](#orgf9ae624)
-    3.  [Privacy and Security](#orgf163974)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-<a id="orgd109c16"></a>
 
 # What is Networking?
 
-
-<a id="orgfd9a6da"></a>
 
 ## Basics of Networking
 
@@ -46,7 +58,7 @@ The information present on the Internet.
 In an IT field, managing, building, and designing networks.
 
 
-<a id="orgf824049"></a>
+---
 
 ## Networking Hardware
 
@@ -63,7 +75,7 @@ In an IT field, managing, building, and designing networks.
 A set of hardware or software that provides the infrastructure for a computer.
 
 
-<a id="orga71dc30"></a>
+---
 
 ## Language of the Internet
 
@@ -78,7 +90,7 @@ Delivers packets to right computers.
 Delivers information from one network to another.
 
 
-<a id="org8878027"></a>
+---
 
 ## The Web
 
@@ -87,12 +99,10 @@ Delivers information from one network to another.
 -   DNS
 
 
-<a id="org3a59f75"></a>
+---
 
 # Limitations of the Internet
 
-
-<a id="orge302d46"></a>
 
 ## History of the Internet
 
@@ -101,7 +111,7 @@ Delivers information from one network to another.
 -   1990s was the start of World Wide Web (WWW).
 
 
-<a id="org3acfc2a"></a>
+---
 
 ## Limitations of the Internet
 
@@ -114,12 +124,10 @@ Delivers information from one network to another.
 Lets organization use one public IP address and many private IP addresses within the network.
 
 
-<a id="orgb01fd8c"></a>
+---
 
 # Impact of the Internet
 
-
-<a id="org4ad2c9a"></a>
 
 ## Impact
 
@@ -129,14 +137,14 @@ Lets organization use one public IP address and many private IP addresses within
 The movement that lets governments, businesses, and organizations communicate and integrate together on an international scale.
 
 
-<a id="orgf9ae624"></a>
+---
 
 ## Internet of Things (IOT)
 
 Smart devices like thermostat, refrigerators, and other home appliances as well as every day smart devices which are being connected to the internet thanks to the IOT.
 
 
-<a id="orgf163974"></a>
+---
 
 ## Privacy and Security
 

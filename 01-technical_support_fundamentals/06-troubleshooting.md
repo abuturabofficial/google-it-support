@@ -1,33 +1,44 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents** 
 
-# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Troubleshooting Best Practices](#troubleshooting-best-practices)
+  - [Ask Questions](#ask-questions)
+    - [Troubleshooting](#troubleshooting)
+  - [Isolating the Problem](#isolating-the-problem)
+    - [Root Cause](#root-cause)
+  - [Follow the Cookie Crumbs](#follow-the-cookie-crumbs)
+  - [Start with the Quickest Step First](#start-with-the-quickest-step-first)
+  - [Troubleshooting Pitfalls to Avoid](#troubleshooting-pitfalls-to-avoid)
+- [Customer Service](#customer-service)
+  - [Intro to Soft Skills](#intro-to-soft-skills)
+  - [Anatomy of an Interaction](#anatomy-of-an-interaction)
+  - [How to Deal with Difficult Situations](#how-to-deal-with-difficult-situations)
+- [Documentation](#documentation)
+  - [Ticketing Systems and Documenting Your Work](#ticketing-systems-and-documenting-your-work)
+    - [Tickets](#tickets)
+    - [Bugs](#bugs)
+    - [System and processes are always changing so should your documentation](#system-and-processes-are-always-changing-so-should-your-documentation)
+    - [Always write documentation that is easy to read and follow for your user](#always-write-documentation-that-is-easy-to-read-and-follow-for-your-user)
+- [Getting Through a Technical Interview](#getting-through-a-technical-interview)
+  - [Standing Out from the Crowd](#standing-out-from-the-crowd)
+    - [Resume](#resume)
+    - [Tailoring the resume](#tailoring-the-resume)
+    - [Your online Presence](#your-online-presence)
+  - [Getting Ready for the Interview](#getting-ready-for-the-interview)
+    - [Elevator Pitch](#elevator-pitch)
+  - [Creating Your Elevator Pitch](#creating-your-elevator-pitch)
+    - [Examples](#examples)
+  - [What to Expect During the Technical Interview](#what-to-expect-during-the-technical-interview)
+  - [Showing Your Best Self During the Interview](#showing-your-best-self-during-the-interview)
 
-1.  [Troubleshooting Best Practices](#org5f7ad32)
-    1.  [Ask Questions](#org6d4c318)
-    2.  [Isolating the Problem](#orgc2a743f)
-    3.  [Follow the Cookie Crumbs](#org0d565b9)
-    4.  [Start with the Quickest Step First](#orgb9ef5b1)
-    5.  [Troubleshooting Pitfalls to Avoid](#org6f250cf)
-2.  [Customer Service](#orge15a86b)
-    1.  [Intro to Soft Skills](#org2981a93)
-    2.  [Anatomy of an Interaction](#org1a47fc8)
-    3.  [How to Deal with Difficult Situations](#orgf6f1def)
-3.  [Documentation](#orgf4dc9ab)
-    1.  [Ticketing Systems and Documenting Your Work](#org9a50b84)
-4.  [Getting Through a Technical Interview](#orgc08bce0)
-    1.  [Standing Out from the Crowd](#orge14b80a)
-    2.  [Getting Ready for the Interview](#orgb3dc238)
-    3.  [Creating Your Elevator Pitch](#org36e9db4)
-    4.  [What to Expect During the Technical Interview](#org3609c91)
-    5.  [Showing Your Best Self During the Interview](#orgbc1a053)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-
-<a id="org5f7ad32"></a>
 
 # Troubleshooting Best Practices
 
-
-<a id="org6d4c318"></a>
 
 ## Ask Questions
 
@@ -40,7 +51,7 @@
 The ability to diagnose and resolve a problem.
 
 
-<a id="orgc2a743f"></a>
+---
 
 ## Isolating the Problem
 
@@ -52,7 +63,7 @@ The ability to diagnose and resolve a problem.
 The main factor that&rsquo;s causing a range of issues.
 
 
-<a id="org0d565b9"></a>
+---
 
 ## Follow the Cookie Crumbs
 
@@ -60,12 +71,12 @@ The main factor that&rsquo;s causing a range of issues.
 -   Look at the logs at time of crash.
 
 
-<a id="orgb9ef5b1"></a>
+---
 
 ## Start with the Quickest Step First
 
 
-<a id="org6f250cf"></a>
+---
 
 ## Troubleshooting Pitfalls to Avoid
 
@@ -73,12 +84,12 @@ The main factor that&rsquo;s causing a range of issues.
 -   Not finding the Root Cause.
 
 
-<a id="orge15a86b"></a>
+---
 
 # Customer Service
 
 
-<a id="org2981a93"></a>
+---
 
 ## Intro to Soft Skills
 
@@ -96,7 +107,7 @@ The main factor that&rsquo;s causing a range of issues.
     -   Developing trust
 
 
-<a id="org1a47fc8"></a>
+---
 
 ## Anatomy of an Interaction
 
@@ -109,7 +120,7 @@ The main factor that&rsquo;s causing a range of issues.
 -   Last five minutes of the process set the overall impact, so end on positive terms with the user.
 
 
-<a id="orgf6f1def"></a>
+---
 
 ## How to Deal with Difficult Situations
 
@@ -118,12 +129,12 @@ The main factor that&rsquo;s causing a range of issues.
 -   Try to see things from others people&rsquo;s point of view.
 
 
-<a id="orgf4dc9ab"></a>
+---
 
 # Documentation
 
 
-<a id="org9a50b84"></a>
+---
 
 ## Ticketing Systems and Documenting Your Work
 
@@ -155,12 +166,10 @@ Issues with the system that weren't caused by an external source.
 ### Always write documentation that is easy to read and follow for your user
 
 
-<a id="orgc08bce0"></a>
+---
 
 # Getting Through a Technical Interview
 
-
-<a id="orge14b80a"></a>
 
 ## Standing Out from the Crowd
 
@@ -194,7 +203,7 @@ Your resume is your first introduction to a new company.
 -   Just like a resume, list your skills, your experience and what you are looking for as your next step. Make sure that you include all the relevant background information that a recruiter looking at your profile might be interested in. Make sure you are descriptive, don’t assume the reader will have context.
 
 
-<a id="orgb3dc238"></a>
+---
 
 ## Getting Ready for the Interview
 
@@ -210,7 +219,7 @@ Your resume is your first introduction to a new company.
 A short summary of who you are and what kind of career you&rsquo;re looking for.
 
 
-<a id="org36e9db4"></a>
+---
 
 ## Creating Your Elevator Pitch
 
@@ -232,7 +241,7 @@ An elevator pitch is a short description of yourself.  The name comes from the f
     **Hi! I’m Ellis, I’ve been working at X Company as an IT Support Specialist for the past two years. During those years, I’ve learned a lot about operating systems and networking and I’m looking to switch to a system administrator position, where I can focus on large scale deployments.**
 
 
-<a id="org3609c91"></a>
+---
 
 ## What to Expect During the Technical Interview
 
@@ -245,7 +254,7 @@ An elevator pitch is a short description of yourself.  The name comes from the f
 -   Take notes when problem involve many steps, but don&rsquo;t feel the necessity to write everything during an interview.
 
 
-<a id="orgbc1a053"></a>
+---
 
 ## Showing Your Best Self During the Interview
 

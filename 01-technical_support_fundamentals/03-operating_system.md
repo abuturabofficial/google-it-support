@@ -1,33 +1,50 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [What&rsquo;s an OS?](#whatrsquos-an-os)
+  - [Remote Connection and SSH](#remote-connection-and-ssh)
+    - [Remote Connection](#remote-connection)
+    - [Secure Shell (SSH)](#secure-shell-ssh)
+    - [VPN](#vpn)
+  - [Remote Connections on Windows](#remote-connections-on-windows)
+    - [PuTTY](#putty)
+  - [Components of an Operating System](#components-of-an-operating-system)
+    - [Operating System](#operating-system)
+  - [Files and File Systems](#files-and-file-systems)
+    - [Block Storage](#block-storage)
+  - [Process Management](#process-management)
+    - [Process](#process)
+    - [Program](#program)
+    - [Time slice](#time-slice)
+    - [Role of Kernel](#role-of-kernel)
+  - [Memory Management](#memory-management)
+    - [Virtual Memory](#virtual-memory)
+    - [Swap Space](#swap-space)
+  - [I/O Management](#io-management)
+  - [Interacting with the OS: User Space](#interacting-with-the-os-user-space)
+  - [Logs](#logs)
+  - [The Boot Process](#the-boot-process)
+    - [BIOS/UEFI](#biosuefi)
+    - [POST](#post)
+    - [Boot Device](#boot-device)
+    - [Bootloader](#bootloader)
+    - [OS](#os)
+    - [Kernel](#kernel)
+- [Installing an Operating System](#installing-an-operating-system)
+  - [Choosing an OS](#choosing-an-os)
+  - [Virtual Machines](#virtual-machines)
+  - [Installing Windows](#installing-windows)
+  - [Installing Linux](#installing-linux)
+  - [What is Chrome OS](#what-is-chrome-os)
+  - [Installing Mac OS X](#installing-mac-os-x)
 
-1.  [What&rsquo;s an OS?](#org89141af)
-    1.  [Remote Connection and SSH](#org8bf0007)
-    2.  [Remote Connections on Windows](#orga5dd78f)
-    3.  [Components of an Operating System](#org78e325d)
-    4.  [Files and File Systems](#org3ca9219)
-    5.  [Process Management](#orgf34ebc9)
-    6.  [Memory Management](#org3a1cf38)
-    7.  [I/O Management](#org0e22ebd)
-    8.  [Interacting with the OS: User Space](#orga4369bf)
-    9.  [Logs](#org996f05f)
-    10. [The Boot Process](#orgdfe5210)
-2.  [Installing an Operating System](#org210380a)
-    1.  [Choosing an OS](#orgd3dcccb)
-    2.  [Virtual Machines](#org4c2ef59)
-    3.  [Installing Windows](#orgd184441)
-    4.  [Installing Linux](#orgde4fe65)
-    5.  [What is Chrome OS](#org87c728e)
-    6.  [Installing Mac OS X](#orgbfcb80e)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-<a id="org89141af"></a>
 
 # What&rsquo;s an OS?
 
-
-<a id="org8bf0007"></a>
 
 ## Remote Connection and SSH
 
@@ -51,7 +68,7 @@ A protocol implemented by other programs to securely access one computer from an
 Allows you to connect to a private network, like your work network, over the Internet.
 
 
-<a id="orga5dd78f"></a>
+---
 
 ## Remote Connections on Windows
 
@@ -65,7 +82,7 @@ A free, open source software that you can use to make remote connections through
 -   Microsoft provides another way to remotely connect with windows computer via GUI, called Remote Desktop Protocol (RDP).
 
 
-<a id="org78e325d"></a>
+---
 
 ## Components of an Operating System
 
@@ -79,7 +96,7 @@ The whole package that manages our computer&rsquo;s resources and lets us intera
 -   2) User Space: Everything out of the scope of the Kernel, like application, CLI tools etc
 
 
-<a id="org3ca9219"></a>
+---
 
 ## Files and File Systems
 
@@ -93,7 +110,7 @@ File storage include three things:
 Improves faster handling of data because the data isn&rsquo;t stored as one long piece and can be accessed quicker.
 
 
-<a id="orgf34ebc9"></a>
+---
 
 ## Process Management
 
@@ -120,7 +137,7 @@ A very short interval of time, that gets allocated to a process for CPU executio
 -   Manages how processes are terminated
 
 
-<a id="org3a1cf38"></a>
+---
 
 ## Memory Management
 
@@ -135,14 +152,14 @@ The combination of hard drive space and RAM that acts like memoy that our proces
 Allocated Space for virtual memory.
 
 
-<a id="org0e22ebd"></a>
+---
 
 ## I/O Management
 
 -   Kernel does Input/Output devices by managing their intercommunicating and resource management etc.
 
 
-<a id="orga4369bf"></a>
+---
 
 ## Interacting with the OS: User Space
 
@@ -155,14 +172,14 @@ Two ways to interact with the OS
 -   GUI
 
 
-<a id="org996f05f"></a>
+---
 
 ## Logs
 
-Files that record system events on our computer, just like a system&rsquo;s diary.
+Files that record system events on our computer, just like a system's diary.
 
 
-<a id="orgdfe5210"></a>
+---
 
 ## The Boot Process
 
@@ -171,7 +188,7 @@ The computer boots in following order.
 
 ### BIOS/UEFI
 
-A low-level software that initializes our computer&rsquo;s hardware to make sure everything is good to go.
+A low-level software that initializes our computer's hardware to make sure everything is good to go.
 
 
 ### POST
@@ -196,37 +213,35 @@ A small program that loads the OS.
 -   User Space
 
 
-<a id="org210380a"></a>
+---
 
 # Installing an Operating System
 
 
-<a id="orgd3dcccb"></a>
-
 ## Choosing an OS
 
 
-<a id="org4c2ef59"></a>
+---
 
 ## Virtual Machines
 
 
-<a id="orgd184441"></a>
+---
 
 ## Installing Windows
 
 
-<a id="orgde4fe65"></a>
+---
 
 ## Installing Linux
 
 
-<a id="org87c728e"></a>
+---
 
 ## What is Chrome OS
 
 
-<a id="orgbfcb80e"></a>
+---
 
 ## Installing Mac OS X
 

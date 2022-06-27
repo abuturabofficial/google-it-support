@@ -1,29 +1,45 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
 
-# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction to IT Support](#introduction-to-it-support)
+  - [What is IT?](#what-is-it)
+    - [Digital Divide](#digital-divide)
+  - [Role of IT Support Specialist](#role-of-it-support-specialist)
+    - [Managing](#managing)
+    - [Installing](#installing)
+    - [Maintaining](#maintaining)
+    - [Troubleshooting](#troubleshooting)
+    - [Configuring](#configuring)
+- [History of Computing](#history-of-computing)
+  - [From Abacus to Analytical Engine](#from-abacus-to-analytical-engine)
+    - [Computer](#computer)
+    - [Abacus](#abacus)
+    - [Mechanical Engine of 17th Century](#mechanical-engine-of-17th-century)
+    - [Invention of Punch Cards in 18th century shaped the world of computing](#invention-of-punch-cards-in-18th-century-shaped-the-world-of-computing)
+    - [Charles Babbage invented the Difference Engine](#charles-babbage-invented-the-difference-engine)
+    - [Analytical Engine](#analytical-engine)
+    - [Invention of Algorithms](#invention-of-algorithms)
+    - [Algorithm](#algorithm)
+- [Digital Logic](#digital-logic)
+  - [Computer Language](#computer-language)
+    - [Binary System](#binary-system)
+  - [Character Encoding](#character-encoding)
+    - [ASCII](#ascii)
+    - [UTF-8](#utf-8)
+  - [Binary](#binary)
+    - [Logic gates](#logic-gates)
+  - [How to Count in Binary?](#how-to-count-in-binary)
+- [Computer Architecture layer](#computer-architecture-layer)
+  - [Abstraction](#abstraction)
+  - [Software layer](#software-layer)
+  - [User](#user)
 
-1.  [Introduction to IT Support](#org8be1be3)
-    1.  [What is IT?](#org68c46bc)
-    2.  [Role of IT Support Specialist](#org9c72638)
-2.  [History of Computing](#org62bd12b)
-    1.  [From Abacus to Analytical Engine](#org5098b52)
-3.  [Digital Logic](#orgae10739)
-    1.  [Computer Language](#org961a93b)
-    2.  [Character Encoding](#org6bca929)
-    3.  [Binary](#org756ce2b)
-    4.  [How to Count in Binary?](#org93ccd27)
-4.  [Computer Architecture layer](#org9822953)
-    1.  [Abstraction](#orgeb493d4)
-    2.  [Software layer](#org6f36c3a)
-    3.  [User](#org95542fd)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-<a id="org8be1be3"></a>
-
+---
 # Introduction to IT Support
-
-
-<a id="org68c46bc"></a>
 
 ## What is IT?
 
@@ -35,7 +51,7 @@ The use of digital technology, like computers and the internet, to store and pro
 The lack of digital literacy among the masses.
 
 
-<a id="org9c72638"></a>
+---
 
 ## Role of IT Support Specialist
 
@@ -55,12 +71,9 @@ The lack of digital literacy among the masses.
 ### Configuring
 
 
-<a id="org62bd12b"></a>
+---
 
 # History of Computing
-
-
-<a id="org5098b52"></a>
 
 ## From Abacus to Analytical Engine
 
@@ -107,12 +120,9 @@ Because of this discovery of Lovelace, the Analytical Engine became the first ge
 A series of steps that solve specific problems.
 
 
-<a id="orgae10739"></a>
+---
 
 # Digital Logic
-
-
-<a id="org961a93b"></a>
 
 ## Computer Language
 
@@ -135,7 +145,7 @@ The communication that a computer uses, also known as a base-2 numeral system.
 3.  Each bit can store one character, and we can have 256 possible values thanks to the base-2 system (2\*\*8)
 
 
-<a id="org6bca929"></a>
+---
 
 ## Character Encoding
 
@@ -152,7 +162,7 @@ The oldest used character encoding system for English alphabet, digits,  punctua
 The most prevalent encoding standard used today. Along with same ASCII table, it lets us use variable number of bytes.
 
 
-<a id="org756ce2b"></a>
+---
 
 ## Binary
 
@@ -178,7 +188,7 @@ Allow our transistors to do more complex tasks, like decide where to send electr
 6.  XNOR logic gate
 
 
-<a id="org93ccd27"></a>
+---
 
 ## How to Count in Binary?
 
@@ -378,12 +388,9 @@ Allow our transistors to do more complex tasks, like decide where to send electr
 </table>
 
 
-<a id="org9822953"></a>
+---
 
 # Computer Architecture layer
-
-
-<a id="orgeb493d4"></a>
 
 ## Abstraction
 
@@ -392,16 +399,15 @@ Allow our transistors to do more complex tasks, like decide where to send electr
 We don&rsquo;t interact with the computers in the form of 0s and 1s(we actually do), instead an abstraction layer like, keyboard, mouse, error messages instead of showing bunch machine code etc.
 
 
-<a id="org6f36c3a"></a>
+---
 
 ## Software layer
 
 How we as human interact with out computer.
 
 
-<a id="org95542fd"></a>
+---
 
 ## User
 
 User interacts with a computer. One can operate, maintain, and even program the computer.
-

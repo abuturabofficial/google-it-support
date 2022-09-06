@@ -219,7 +219,7 @@ Responsible for defining a common way of interpreting these signals so network d
 
   > **Preamble:** 8 bytes (or 64 bits) long, and can itself split into two sections
 
-  + Preamble can split into two part of 1 bits of series of 1s and 0s
+  + Preamble can split into two part of 1 byte of series of 1s and 0s
   + Last frame in preamble is called Start frame delimiter (SFD)
   
   > Signals to a receiving device that the preamble is over and that the actual frame contents will now follow

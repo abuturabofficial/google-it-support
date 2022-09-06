@@ -201,7 +201,7 @@ Responsible for defining a common way of interpreting these signals so network d
   + Ethernet broadcast are used, so devices can learn more about each other
   + Ethernet broadcast address used is `FF:FF:FF:FF:FF:FF:FF` 
 
-  ![Broadcast](./images/broadcast.png.png) 
+  ![Broadcast](./images/broadcast.png) 
 
 ### Dissecting an Ethernet Frame
 

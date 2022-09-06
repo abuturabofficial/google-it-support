@@ -174,7 +174,7 @@ Responsible for defining a common way of interpreting these signals so network d
 
   > **1) Organizationally Unique Identifier(OUI):** The first three octets of a MAC address
 
-  > **2) Vendor Assigned(NIC Cards, Interfaces):** Lat three octets are assigned by the vendor, depending upon their preferences.
+  > **2) Vendor Assigned(NIC Cards, Interfaces):** Last three octets are assigned by the vendor, depending upon their preferences.
 
   ![MAC Address Types](./images/mac_addresses.png) 
 

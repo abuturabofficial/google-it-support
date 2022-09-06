@@ -238,7 +238,7 @@ Responsible for defining a common way of interpreting these signals so network d
   > Indicates that the frame itself is what's called a VLAN frame
 
   + If a VLAN header is present, the EtherType field follows it.
-  > ** Virtual LAN (VLAN):** A technique that lets you have multiple logical LANs operating on the same physical equipment
+  > **Virtual LAN (VLAN):** A technique that lets you have multiple logical LANs operating on the same physical equipment
   + VLANs, use to segregate different type of network traffic
 
   ![Vlan Network](./images/vlan.png) 
@@ -249,7 +249,7 @@ Responsible for defining a common way of interpreting these signals so network d
 
   + Following payload is, Frame Check Sequence (FCS)
 
-  > A 4-byte (or 32-bi) number that represents a checksum value for the entire frame
+  > A 4-byte (or 32-bit) number that represents a checksum value for the entire frame
 
     + This ** checksum value** is calculated by performing what's known as a cyclical redundancy check against the frame.
 

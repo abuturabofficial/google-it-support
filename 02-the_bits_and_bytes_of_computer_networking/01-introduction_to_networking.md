@@ -251,7 +251,7 @@ Responsible for defining a common way of interpreting these signals so network d
 
   > A 4-byte (or 32-bit) number that represents a checksum value for the entire frame
 
-    + This ** checksum value** is calculated by performing what's known as a cyclical redundancy check against the frame.
+    + This **checksum value** is calculated by performing what's known as a cyclical redundancy check against the frame.
 
     > **Cyclic Redundancy Check (CRC):** An important concept for data integrity, and is used all over computing, not just network transmissions
 

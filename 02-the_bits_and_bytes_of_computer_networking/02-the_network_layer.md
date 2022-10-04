@@ -152,4 +152,16 @@ OR
 
 - In computer logic, a **1** represents **true** and a **0** represents **false**.
 
+## CIDR (Classless Inter-Domain Routing)
 
+- Addresses should be continuous
+- Number of addresses in a block must be in power of 2
+- First address of every block must be evenly divisible with the size of the block
+
+### Demarcation point
+  
+  To describe where one network or system ends and another one begins.
+
+![CIDR](./images/cidr.png) 
+
+ 

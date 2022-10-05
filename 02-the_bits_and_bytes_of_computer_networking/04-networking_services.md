@@ -116,3 +116,19 @@ The last part of a domain name. E.g. **.com, .net etc.**
 - TLDs are handled by non-profit **The Internet Corporation for Assigned Names and Number (ICANN)** 
 
 - **ICANN** is a sister organization to **IANA**, together both help define and control the global IP spaces and DNS system
+
+### Domains
+
+"Used to demarcate where control moves from a TLD name server to an authoritative name server."
+
+### Subdomain
+
+"The **www** portion of a domain."
+
+### Full qualified domain name (FQDN)
+
+When you combine all of these parts together, you have what's known as this.
+
+- A DNS can technically support up to **127 level** of domain in total for a single fully qualified domain name
+
+- Some other restrictions are, each individual section can only be **63 characters** and a **complete FQDN** is limited to **255 characters**

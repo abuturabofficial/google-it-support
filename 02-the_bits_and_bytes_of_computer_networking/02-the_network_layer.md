@@ -1,3 +1,36 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [The Network Layer](#the-network-layer)
+  - [IP Addresses](#ip-addresses)
+  - [IP Datagrams and Encapsulation](#ip-datagrams-and-encapsulation)
+    - [IP Datagram Header](#ip-datagram-header)
+    - [Encapsulation](#encapsulation)
+  - [IP Address Classes](#ip-address-classes)
+    - [Address class system](#address-class-system)
+  - [Address Resolution Protocol (ARP)](#address-resolution-protocol-arp)
+    - [ARP table](#arp-table)
+- [Subnetting](#subnetting)
+  - [Subnet Masks](#subnet-masks)
+    - [Subnet ID](#subnet-id)
+  - [Basic Binary Math](#basic-binary-math)
+  - [CIDR (Classless Inter-Domain Routing)](#cidr-classless-inter-domain-routing)
+    - [Demarcation point](#demarcation-point)
+- [Routing](#routing)
+  - [Basic Routing Concepts](#basic-routing-concepts)
+    - [Router](#router)
+  - [Routing Tables](#routing-tables)
+  - [Routing Protocols](#routing-protocols)
+    - [Interior Gateway Protocols](#interior-gateway-protocols)
+      - [Autonomous system](#autonomous-system)
+  - [Exterior Gateway Protocol](#exterior-gateway-protocol)
+    - [Internet Assigned Numbers Authority (IANA)](#internet-assigned-numbers-authority-iana)
+    - [Autonomous System Number (ASN)](#autonomous-system-number-asn)
+  - [Non-Routable Address Space](#non-routable-address-space)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # The Network Layer
 
 ## IP Addresses

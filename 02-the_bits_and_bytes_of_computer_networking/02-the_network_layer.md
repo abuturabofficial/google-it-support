@@ -164,4 +164,67 @@ OR
 
 ![CIDR](./images/cidr.png) 
 
- 
+# Routing 
+
+## Basic Routing Concepts
+
+### Router
+
+  A network device that forwards traffic depending on the destination address of that traffic.
+
+![Basic Routing](./images/basic_routing.png) 
+
+## Routing Tables
+
+- Destination Network
+
+![Destination Network](./images/destination_network.png) 
+
+- Next Hop
+
+- Total Hops
+
+- Interface
+
+## Routing Protocols
+
+- **Routing protocols** fall into two main categories: **interior gateway protocols** and **exterior gateway protocols**.
+
+- Interior Gateway Protocols
+  
+  + Link state routing protocols
+  + distance-vector protocols
+
+### Interior Gateway Protocols
+
+  Used by routers to share information within a single autonomous system.
+
+#### Autonomous system
+
+"A collection of networks that all fall under the control of a single network operator."
+
+![Interior Gateway Protocols](./images/autonomous_system.png) 
+
+> In computer science, a **list** is known as a **vector**.
+
+## Exterior Gateway Protocol
+
+### Internet Assigned Numbers Authority (IANA)
+
+  "A non-profit organization that helps manage things like IP address allocation."
+
+- Also responsible for **ASN** allocation
+
+### Autonomous System Number (ASN)
+
+Numbers assigned to individual autonomous systems.
+
+- 32-bits long as IP addresses
+- But has only single decimal block instead of 4 octets
+
+![The Internet](./images/internet.png) 
+
+## Non-Routable Address Space 
+
+- IPv4 standard doesn't have enough IP addresses
+- There are non-routable address spaces, set aside for internal use only and couldn't free communicate on the free internet

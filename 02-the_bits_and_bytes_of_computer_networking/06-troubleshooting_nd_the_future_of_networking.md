@@ -1,3 +1,50 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Introduction to Troubleshooting and the Future of Networking](#introduction-to-troubleshooting-and-the-future-of-networking)
+  - [Introduction to Troubleshooting and the Future of Networking](#introduction-to-troubleshooting-and-the-future-of-networking-1)
+    - [Error-detection](#error-detection)
+    - [Error-recovery](#error-recovery)
+- [Verifying Connectivity](#verifying-connectivity)
+  - [Ping: Internet Control Message Protocol (ICMP)](#ping-internet-control-message-protocol-icmp)
+    - [ICMP Message](#icmp-message)
+    - [Ping](#ping)
+  - [Traceroute](#traceroute)
+  - [Testing Port Connectivity](#testing-port-connectivity)
+- [Digging into DNS](#digging-into-dns)
+  - [Name Resolution Tools](#name-resolution-tools)
+  - [Public DNS Servers](#public-dns-servers)
+  - [DNS Registration and Expiration](#dns-registration-and-expiration)
+    - [Registrar](#registrar)
+  - [Hosts Files](#hosts-files)
+    - [Hosts File](#hosts-file)
+    - [Loopback Address](#loopback-address)
+- [The Cloud](#the-cloud)
+  - [What is The Cloud?](#what-is-the-cloud)
+    - [Cloud Computing](#cloud-computing)
+    - [Virtualization](#virtualization)
+    - [Hypervisor](#hypervisor)
+    - [Public Cloud](#public-cloud)
+    - [Private Cloud](#private-cloud)
+    - [Hybrid Cloud](#hybrid-cloud)
+  - [Everything as a Service](#everything-as-a-service)
+    - [Infrastructure as a Service (IaaS)](#infrastructure-as-a-service-iaas)
+    - [Platform as a Service (PaaS)](#platform-as-a-service-paas)
+    - [Software as a Service (SaaS)](#software-as-a-service-saas)
+  - [Cloud Storage](#cloud-storage)
+- [IPv6](#ipv6)
+  - [IPv6 Addressing and Subnetting](#ipv6-addressing-and-subnetting)
+    - [Shortening of an IPv6 address](#shortening-of-an-ipv6-address)
+    - [Multicast](#multicast)
+    - [Link-local unicast](#link-local-unicast)
+  - [IPv6 Headers](#ipv6-headers)
+  - [IPv6 and IPv4 harmony](#ipv6-and-ipv4-harmony)
+    - [IPv6 tunnels](#ipv6-tunnels)
+    - [IPv6 tunnel broker](#ipv6-tunnel-broker)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introduction to Troubleshooting and the Future of Networking
 
 ## Introduction to Troubleshooting and the Future of Networking

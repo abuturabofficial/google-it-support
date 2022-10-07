@@ -11,6 +11,7 @@ It includes following individual courses:
 ## 5) IT Security: Defense against the digital dark arts
 
 
+> Note: These notes are written, considering my previous knowledge of topic, so you may find them difficult to follow at a beginner level.
 ---
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]

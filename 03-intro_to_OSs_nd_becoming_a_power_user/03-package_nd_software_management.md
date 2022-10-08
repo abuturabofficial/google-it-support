@@ -1,3 +1,45 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Software Distribution](#software-distribution)
+  - [Windows: Software Packages](#windows-software-packages)
+    - [Executable file (.exe)](#executable-file-exe)
+    - [Microsoft install package (.msi)](#microsoft-install-package-msi)
+  - [Linux: Software Packages](#linux-software-packages)
+  - [Mobile App Packages](#mobile-app-packages)
+    - [App Stores](#app-stores)
+    - [Side-loading](#side-loading)
+  - [Windows: Archives](#windows-archives)
+    - [Archive](#archive)
+    - [Package archives](#package-archives)
+  - [Linux: Archives](#linux-archives)
+  - [Windows: Package Dependencies](#windows-package-dependencies)
+    - [Having Dependencies](#having-dependencies)
+    - [Library](#library)
+    - [cmdlet](#cmdlet)
+  - [Linux: Package Dependencies](#linux-package-dependencies)
+    - [Package managers](#package-managers)
+- [Package Managers](#package-managers)
+  - [Windows: Package Manager](#windows-package-manager)
+  - [Linux: Package Manager Apt](#linux-package-manager-apt)
+    - [Personal Package Archive (PPA)](#personal-package-archive-ppa)
+- [What's happening in the background?](#whats-happening-in-the-background)
+  - [Windows: Underneath the Hood](#windows-underneath-the-hood)
+  - [Linux: Underneath the Hood](#linux-underneath-the-hood)
+- [Device Software Management](#device-software-management)
+  - [Windows: Devices and Drivers](#windows-devices-and-drivers)
+    - [Driver](#driver)
+  - [Linux: Devices and Drivers](#linux-devices-and-drivers)
+    - [Character Devices](#character-devices)
+    - [Block Devices](#block-devices)
+    - [Pseudo Devices](#pseudo-devices)
+  - [Windows: Operating System Updates](#windows-operating-system-updates)
+    - [Security Patch](#security-patch)
+  - [Linux: Operating System Updates](#linux-operating-system-updates)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Software Distribution
 
 ## Windows: Software Packages
@@ -220,7 +262,7 @@ A Personal Package Archive or PPA is a software repo for uploading source packag
 
 ## Windows: Underneath the Hood
 
-- When click an .exe to install, next step depends on the developer, how he setups the installation instructions for his/her program.
+- When click an .exe to install, next step depends on the developer, how he, setups the installation instructions for his/her program.
 
 - If an EXE contains code for a custom installation that doesn't use the Windows installer system, then the details of what happens under the hood will be mostly unclear. As the most Windows' software are closed source packages.
 
@@ -231,3 +273,91 @@ A Personal Package Archive or PPA is a software repo for uploading source packag
 - In case MSI files, though code is closed source, but developers need to stick to strict guidelines.
 
   + **Orca** tool lets you examine, create and edit MSI files, it's part of Windows SDK.
+
+## Linux: Underneath the Hood
+
+- Installations are clearer than Windows due to open nature of the OS
+
+- Software usually consists of setup script, actual app files and README.
+
+- Most devices you've got on you computer will be groped together according to some broad categories by Windows.
+
+- This grouping usually happens automatically when you plug in a new device, **Plug&Play or PnP** system.
+
+- When new device plugs-in, Windows asks for its hardware ID.
+
+- When it gets right hardware ID, it searches for its drivers in some known locations, starting with a local list of well-known drivers. Then goes on to Windows Update or the driver store.
+
+- Other times devices comes with custom drivers.
+
+# Device Software Management
+
+## Windows: Devices and Drivers
+
+- **Device Manager** console is used in GUI, for devices and drivers management.
+
+- You can open it by searching **devmgmt.msc** from the search console, or right-click on **This PC** and click **Device Manager**.
+
+### Driver
+
+Used to help our hardware devices interact with our OS.
+
+## Linux: Devices and Drivers
+
+- In Linux, everything is considered a file, even the hardware devices.
+
+- When a new device is connected, a file is created in the `/dev/` directory.
+
+- There are lots of devices in `/dev/` directory, but not all of them are physical devices.
+
+- The more common one in there are **character devices** and **block devices**.
+
+- As in long `ls` listing `-` in the front represents file, and `d` represents `directory`, in `/dev/`, `c` shows block devices, and `b` represents block devices.
+
+- Device drivers in Linux are easy at the same time difficult to install.
+
+  + Linux kernel is monolithic software, that contains drivers for popular devices as well.
+
+  + The devices that don't have driver backed in the kernel, will have drivers in the form of **kernel modules**.
+
+### Character Devices
+
+Like a keyboard or a mouse, transmit data character by character.
+
+### Block Devices
+
+Like USB drives, hard drives and CDROMs, transfer blocks of data; a data block is just a unit of data storage.
+
+### Pseudo Devices
+
+Device nodes on Unix-like OSs, that don't necessarily have to correspond to physical devices. I.e. `/dev/null`, `/dev/zero`, `/dev/full` etc.
+
+## Windows: Operating System Updates
+
+- When your OS vendor discover security hole in a system, they prepare a security patch.
+
+- As an IT specialist, it's important keep your system up-to-date with security and other patches, though feature updates can be delayed for reasons.
+
+- The Windows Update Client service runs in the background and download and install security patches and updates.
+
+### Security Patch
+
+Software that's meant to fix up a security hole.
+
+## Linux: Operating System Updates
+
+- For Ubuntu based distros
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+- To be on latest security patches, you need to run and update newer kernels.
+
+To see your kernel version
+
+```bash
+uname -r
+```
+
+`-r` is a flag, to know kernel release, to know kernel version you have.

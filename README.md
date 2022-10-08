@@ -11,7 +11,8 @@ It includes following individual courses:
 ## 5) IT Security: Defense against the digital dark arts
 
 
-> **Warning**: ** These notes are taken, considering my earlier knowledge of the topics, the knowledge gained from the other courses, I'm taking along with these. So, use these notes at your own discretion.
+> **Warning**: ** These notes are taken, considering my earlier knowledge of the topics, the difficulty level, and the knowledge, I gained from the other courses, I'm taking along with these. So, use these notes at your own discretion.
+
 ---
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]

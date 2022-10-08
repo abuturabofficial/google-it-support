@@ -159,6 +159,10 @@
 
   The process of taking a large network and splitting it up into many individual and smaller sub-networks, or subnets.
 
+- Class-C subnetting table.
+
+![Subnetting Table](./images/subnetting_table.png) 
+
 ## Subnet Masks
 
 > 32-bits numbers that are normally written out as four octets in decimal.

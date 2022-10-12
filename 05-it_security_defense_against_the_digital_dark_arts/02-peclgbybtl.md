@@ -282,3 +282,5 @@ Additional randomized data that's added into the hashing function to generate a 
 
 ![[assets/02-peclgbybtl/image-20221012172643971.png]]
 
+
+![A test image](./assets/02-peclgbybtl/image-20221012172643971.png)

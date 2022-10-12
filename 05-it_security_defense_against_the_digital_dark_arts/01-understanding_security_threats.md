@@ -1,41 +1,50 @@
-- [[#The CIA Triad|The CIA Triad]]
-- [[#Essential Security Terms|Essential Security Terms]]
-	- [[#Essential Security Terms#Risk|Risk]]
-	- [[#Essential Security Terms#Vulnerability|Vulnerability]]
-	- [[#Essential Security Terms#0-day vulnerability (zero day)|0-day vulnerability (zero day)]]
-	- [[#Essential Security Terms#Exploit|Exploit]]
-	- [[#Essential Security Terms#Threat|Threat]]
-	- [[#Essential Security Terms#Hacker|Hacker]]
-	- [[#Essential Security Terms#Attack|Attack]]
-- [[#Malicious Software|Malicious Software]]
-	- [[#Malicious Software#Malware|Malware]]
-	- [[#Malicious Software#Adware|Adware]]
-	- [[#Malicious Software#Trojan|Trojan]]
-	- [[#Malicious Software#Spyware|Spyware]]
-	- [[#Malicious Software#Keylogger|Keylogger]]
-	- [[#Malicious Software#Ransomeware|Ransomeware]]
-	- [[#Malicious Software#Quarantine malware|Quarantine malware]]
-	- [[#Malicious Software#Remove malware|Remove malware]]
-	- [[#Malicious Software#Malware education|Malware education]]
-	- [[#Malicious Software#Botnets|Botnets]]
-	- [[#Malicious Software#Backdoor|Backdoor]]
-	- [[#Malicious Software#Rootkit|Rootkit]]
-	- [[#Malicious Software#Logic bomb|Logic bomb]]
-	- [[#Malicious Software#Rogue AP|Rogue AP]]
-	- [[#Malicious Software#Evil Twin|Evil Twin]]
-- [[#Denial-of-service (DoS) attack|Denial-of-service (DoS) attack]]
-	- [[#Denial-of-service (DoS) attack#Distributed denial-of-service attack (DDoS)|Distributed denial-of-service attack (DDoS)]]
-	- [[#Denial-of-service (DoS) attack#How to prevent DDoS Attacks|How to prevent DDoS Attacks]]
-- [[#Client-Side Attacks|Client-Side Attacks]]
-	- [[#Client-Side Attacks#Cross-site scripting (XSS) attacks|Cross-site scripting (XSS) attacks]]
-	- [[#Client-Side Attacks#SQL injection attack|SQL injection attack]]
-- [[#Password Attacks|Password Attacks]]
-	- [[#Password Attacks#Brute Force Attack|Brute Force Attack]]
-	- [[#Password Attacks#Dictionary Attack|Dictionary Attack]]
-- [[#Deceptive Attacks|Deceptive Attacks]]
-	- [[#Deceptive Attacks#Social Engineering|Social Engineering]]
-	- [[#Deceptive Attacks#Spoofing|Spoofing]]
-	- [[#Deceptive Attacks#Tailgating|Tailgating]]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Malicious Software](#malicious-software)
+  - [The CIA Triad](#the-cia-triad)
+  - [Essential Security Terms](#essential-security-terms)
+    - [Risk](#risk)
+    - [Vulnerability](#vulnerability)
+    - [0-day vulnerability (zero day)](#0-day-vulnerability-zero-day)
+    - [Exploit](#exploit)
+    - [Threat](#threat)
+    - [Hacker](#hacker)
+    - [Attack](#attack)
+  - [Malicious Software](#malicious-software-1)
+    - [Malware](#malware)
+    - [Adware](#adware)
+    - [Trojan](#trojan)
+    - [Spyware](#spyware)
+    - [Keylogger](#keylogger)
+    - [Ransomeware](#ransomeware)
+    - [Quarantine malware](#quarantine-malware)
+    - [Remove malware](#remove-malware)
+    - [Malware education](#malware-education)
+    - [Botnets](#botnets)
+    - [Backdoor](#backdoor)
+    - [Rootkit](#rootkit)
+    - [Logic bomb](#logic-bomb)
+- [Network Attacks](#network-attacks)
+    - [Rogue AP](#rogue-ap)
+    - [Evil Twin](#evil-twin)
+  - [Denial-of-service (DoS) attack](#denial-of-service-dos-attack)
+    - [Distributed denial-of-service attack (DDoS)](#distributed-denial-of-service-attack-ddos)
+    - [How to prevent DDoS Attacks](#how-to-prevent-ddos-attacks)
+- [Other Attacks](#other-attacks)
+  - [Client-Side Attacks](#client-side-attacks)
+    - [Cross-site scripting (XSS) attacks](#cross-site-scripting-xss-attacks)
+    - [SQL injection attack](#sql-injection-attack)
+  - [Password Attacks](#password-attacks)
+    - [Brute Force Attack](#brute-force-attack)
+    - [Dictionary Attack](#dictionary-attack)
+  - [Deceptive Attacks](#deceptive-attacks)
+    - [Social Engineering](#social-engineering)
+    - [Spoofing](#spoofing)
+    - [Tailgating](#tailgating)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Malicious Software
 

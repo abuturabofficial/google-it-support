@@ -1,66 +1,75 @@
-- [[#Cryptography|Cryptography]]
-	- [[#Cryptography#Encryption|Encryption]]
-	- [[#Cryptography#Encryption algorithm|Encryption algorithm]]
-	- [[#Cryptography#Cryptosystem|Cryptosystem]]
-	- [[#Cryptography#Frequency analysis|Frequency analysis]]
-	- [[#Cryptography#Steganography|Steganography]]
-- [[#Types of cryptanalysis attack|Types of cryptanalysis attack]]
-	- [[#Types of cryptanalysis attack#Known-Plaintext Analysis (KPA)|Known-Plaintext Analysis (KPA)]]
-	- [[#Types of cryptanalysis attack#Chose-Plaintext Analysis (CPA)|Chose-Plaintext Analysis (CPA)]]
-	- [[#Types of cryptanalysis attack#Ciphertext-Only Analysis (COA)|Ciphertext-Only Analysis (COA)]]
-	- [[#Types of cryptanalysis attack#Adaptive Chosen-Plaintext attack (ACPA)|Adaptive Chosen-Plaintext attack (ACPA)]]
-	- [[#Types of cryptanalysis attack#Meddler-in-the-Middle (MITM)|Meddler-in-the-Middle (MITM)]]
-- [[#Symmetric Cryptography|Symmetric Cryptography]]
-	- [[#Symmetric Cryptography#Substitution cipher|Substitution cipher]]
-	- [[#Symmetric Cryptography#Stream cipher|Stream cipher]]
-	- [[#Symmetric Cryptography#Block ciphers|Block ciphers]]
-- [[#Symmetric Encryption Algorithms|Symmetric Encryption Algorithms]]
-	- [[#Symmetric Encryption Algorithms#Data Encryption Standard (DES)|Data Encryption Standard (DES)]]
-	- [[#Symmetric Encryption Algorithms#FIPS|FIPS]]
-	- [[#Symmetric Encryption Algorithms#Standard Encryption Standard (AES)|Standard Encryption Standard (AES)]]
-	- [[#Symmetric Encryption Algorithms#RC4 (Rivest Cipher 4)|RC4 (Rivest Cipher 4)]]
-- [[#Asymmetric Cryptography|Asymmetric Cryptography]]
-	- [[#Asymmetric Cryptography#Message Authentication Codes or MACs|Message Authentication Codes or MACs]]
-		- [[#Message Authentication Codes or MACs#HMAC|HMAC]]
-	- [[#Asymmetric Cryptography#CMACs|CMACs]]
-		- [[#CMACs#CBC-MAC|CBC-MAC]]
-- [[#Asymmetric Encryption Algorithms|Asymmetric Encryption Algorithms]]
-	- [[#Asymmetric Encryption Algorithms#RSA|RSA]]
-	- [[#Asymmetric Encryption Algorithms#Digital Signature Algorithm or DSA|Digital Signature Algorithm or DSA]]
-	- [[#Asymmetric Encryption Algorithms#Diffie-Hellman|Diffie-Hellman]]
-	- [[#Asymmetric Encryption Algorithms#Elliptic curve cryptography (ECC)|Elliptic curve cryptography (ECC)]]
-	- [[#Asymmetric Encryption Algorithms#Hash collisions|Hash collisions]]
-- [[#Hashing Algorithms|Hashing Algorithms]]
-	- [[#Hashing Algorithms#MD5|MD5]]
-	- [[#Hashing Algorithms#SHA-1|SHA-1]]
-	- [[#Hashing Algorithms#Defense against hash attacks|Defense against hash attacks]]
-	- [[#Hashing Algorithms#Password salt|Password salt]]
-- [[#Public Key Infrastructure (PKI)|Public Key Infrastructure (PKI)]]
-	- [[#Public Key Infrastructure (PKI)#PKI signing process|PKI signing process]]
-		- [[#PKI signing process#Version|Version]]
-		- [[#PKI signing process#Serial number|Serial number]]
-		- [[#PKI signing process#Certificate Signature Algorithm|Certificate Signature Algorithm]]
-		- [[#PKI signing process#Issuer Name|Issuer Name]]
-		- [[#PKI signing process#Validity|Validity]]
-		- [[#PKI signing process#Subject|Subject]]
-		- [[#PKI signing process#Subject Public Key Info|Subject Public Key Info]]
-		- [[#PKI signing process#Certificate Signature Algorithm|Certificate Signature Algorithm]]
-		- [[#PKI signing process#Certificate Signature Value|Certificate Signature Value]]
-	- [[#Public Key Infrastructure (PKI)#SSL/TLS server certificate|SSL/TLS server certificate]]
-	- [[#Public Key Infrastructure (PKI)#Self-signed certificate|Self-signed certificate]]
-	- [[#Public Key Infrastructure (PKI)#SSL/TLS client certificate|SSL/TLS client certificate]]
-	- [[#Public Key Infrastructure (PKI)#Code Signing Certificates|Code Signing Certificates]]
-	- [[#Public Key Infrastructure (PKI)#Webs of Trust|Webs of Trust]]
-- [[#Cryptography in Action|Cryptography in Action]]
-	- [[#Cryptography in Action#HTTPS|HTTPS]]
-	- [[#Cryptography in Action#TLS|TLS]]
-	- [[#Cryptography in Action#Secure Shell (SSH)|Secure Shell (SSH)]]
-	- [[#Cryptography in Action#Pretty Good Privacy (PGP)|Pretty Good Privacy (PGP)]]
-- [[#Securing Network Traffic|Securing Network Traffic]]
-	- [[#Securing Network Traffic#Virtual Private Network (VPN)|Virtual Private Network (VPN)]]
-- [[#Cryptographic Hardware|Cryptographic Hardware]]
-	- [[#Cryptographic Hardware#TPM or Trusted Platform Module|TPM or Trusted Platform Module]]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Symmetric Encryption](#symmetric-encryption)
+  - [Cryptography](#cryptography)
+    - [Encryption](#encryption)
+    - [Encryption algorithm](#encryption-algorithm)
+    - [Cryptosystem](#cryptosystem)
+    - [Frequency analysis](#frequency-analysis)
+    - [Steganography](#steganography)
+  - [Types of cryptanalysis attack](#types-of-cryptanalysis-attack)
+    - [Known-Plaintext Analysis (KPA)](#known-plaintext-analysis-kpa)
+    - [Chose-Plaintext Analysis (CPA)](#chose-plaintext-analysis-cpa)
+    - [Ciphertext-Only Analysis (COA)](#ciphertext-only-analysis-coa)
+    - [Adaptive Chosen-Plaintext attack (ACPA)](#adaptive-chosen-plaintext-attack-acpa)
+    - [Meddler-in-the-Middle (MITM)](#meddler-in-the-middle-mitm)
+  - [Symmetric Cryptography](#symmetric-cryptography)
+    - [Substitution cipher](#substitution-cipher)
+    - [Stream cipher](#stream-cipher)
+    - [Block ciphers](#block-ciphers)
+  - [Symmetric Encryption Algorithms](#symmetric-encryption-algorithms)
+    - [Data Encryption Standard (DES)](#data-encryption-standard-des)
+    - [FIPS](#fips)
+    - [Standard Encryption Standard (AES)](#standard-encryption-standard-aes)
+    - [RC4 (Rivest Cipher 4)](#rc4-rivest-cipher-4)
+- [Public Key or Asymmetric Encryption](#public-key-or-asymmetric-encryption)
+  - [Asymmetric Cryptography](#asymmetric-cryptography)
+    - [Message Authentication Codes or MACs](#message-authentication-codes-or-macs)
+      - [HMAC](#hmac)
+    - [CMACs](#cmacs)
+      - [CBC-MAC](#cbc-mac)
+  - [Asymmetric Encryption Algorithms](#asymmetric-encryption-algorithms)
+    - [RSA](#rsa)
+    - [Digital Signature Algorithm or DSA](#digital-signature-algorithm-or-dsa)
+    - [Diffie-Hellman](#diffie-hellman)
+    - [Elliptic curve cryptography (ECC)](#elliptic-curve-cryptography-ecc)
+- [Hashing](#hashing)
+    - [Hash collisions](#hash-collisions)
+  - [Hashing Algorithms](#hashing-algorithms)
+    - [MD5](#md5)
+    - [SHA-1](#sha-1)
+    - [Defense against hash attacks](#defense-against-hash-attacks)
+    - [Password salt](#password-salt)
+- [Cryptographic Applications](#cryptographic-applications)
+  - [Public Key Infrastructure (PKI)](#public-key-infrastructure-pki)
+    - [PKI signing process](#pki-signing-process)
+      - [Version](#version)
+      - [Serial number](#serial-number)
+      - [Certificate Signature Algorithm](#certificate-signature-algorithm)
+      - [Issuer Name](#issuer-name)
+      - [Validity](#validity)
+      - [Subject](#subject)
+      - [Subject Public Key Info](#subject-public-key-info)
+      - [Certificate Signature Algorithm](#certificate-signature-algorithm-1)
+      - [Certificate Signature Value](#certificate-signature-value)
+    - [SSL/TLS server certificate](#ssltls-server-certificate)
+    - [Self-signed certificate](#self-signed-certificate)
+    - [SSL/TLS client certificate](#ssltls-client-certificate)
+    - [Code Signing Certificates](#code-signing-certificates)
+    - [Webs of Trust](#webs-of-trust)
+  - [Cryptography in Action](#cryptography-in-action)
+    - [HTTPS](#https)
+    - [TLS](#tls)
+    - [Secure Shell (SSH)](#secure-shell-ssh)
+    - [Pretty Good Privacy (PGP)](#pretty-good-privacy-pgp)
+  - [Securing Network Traffic](#securing-network-traffic)
+    - [Virtual Private Network (VPN)](#virtual-private-network-vpn)
+  - [Cryptographic Hardware](#cryptographic-hardware)
+    - [TPM or Trusted Platform Module](#tpm-or-trusted-platform-module)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Symmetric Encryption
 

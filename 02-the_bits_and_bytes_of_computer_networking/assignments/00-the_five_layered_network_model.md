@@ -1,12 +1,28 @@
-- [[#Multiplexing and Demultiplexing|Multiplexing and Demultiplexing]]
-	- [[#Multiplexing and Demultiplexing#**1) IPv4 address:**|**1) IPv4 address:**]]
-	- [[#Multiplexing and Demultiplexing#2) IPv6 Addresses|2) IPv6 Addresses]]
-	- [[#Multiplexing and Demultiplexing#Entries of an IP Routing Table:|Entries of an IP Routing Table:]]
-	- [[#Multiplexing and Demultiplexing#1) Network ID:|1) Network ID:]]
-- [[#2) Subnet Mask:|2) Subnet Mask:]]
-	- [[#2) Subnet Mask:#3) Next Hop:|3) Next Hop:]]
-	- [[#2) Subnet Mask:#4) Outgoing Interface:|4) Outgoing Interface:]]
-	- [[#2) Subnet Mask:#5) Metric:|5) Metric:]]
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Physical Layer](#physical-layer)
+- [Data link Layer](#data-link-layer)
+- [Network Layer](#network-layer)
+- [Transport Layer](#transport-layer)
+  - [Multiplexing and Demultiplexing](#multiplexing-and-demultiplexing)
+- [MAC Address](#mac-address)
+- [IP Address](#ip-address)
+    - [**1) IPv4 address:**](#1-ipv4-address)
+    - [2) IPv6 Addresses](#2-ipv6-addresses)
+- [TCP Port](#tcp-port)
+- [Checksum Check](#checksum-check)
+- [Routing Table](#routing-table)
+    - [Entries of an IP Routing Table:](#entries-of-an-ip-routing-table)
+    - [1) Network ID:](#1-network-id)
+  - [2) Subnet Mask:](#2-subnet-mask)
+    - [3) Next Hop:](#3-next-hop)
+    - [4) Outgoing Interface:](#4-outgoing-interface)
+    - [5) Metric:](#5-metric)
+- [TTL](#ttl)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Physical Layer
 

@@ -1,3 +1,13 @@
+- [[#Multiplexing and Demultiplexing|Multiplexing and Demultiplexing]]
+	- [[#Multiplexing and Demultiplexing#**1) IPv4 address:**|**1) IPv4 address:**]]
+	- [[#Multiplexing and Demultiplexing#2) IPv6 Addresses|2) IPv6 Addresses]]
+	- [[#Multiplexing and Demultiplexing#Entries of an IP Routing Table:|Entries of an IP Routing Table:]]
+	- [[#Multiplexing and Demultiplexing#1) Network ID:|1) Network ID:]]
+- [[#2) Subnet Mask:|2) Subnet Mask:]]
+	- [[#2) Subnet Mask:#3) Next Hop:|3) Next Hop:]]
+	- [[#2) Subnet Mask:#4) Outgoing Interface:|4) Outgoing Interface:]]
+	- [[#2) Subnet Mask:#5) Metric:|5) Metric:]]
+
 # Physical Layer
 
 This layer describes that how devices connect to each other at the physical level. On this level, twisted-pair cables and duplexing is used.

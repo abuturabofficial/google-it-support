@@ -301,6 +301,24 @@ Designed in early 1990s. Operates on 512-bits block and generates 128-bits hash 
   + Due to these very serious vulnerabilities in the hash function, it was recommended to stop using MD5 by 2010.
   + In 2012, this hash collision was used for nefarious purposes in the flame malware, which used to forge a Microsoft digital certificate to sign their malware, which resulted in the malware appearing to be from legitimate software that came from Microsoft.
 
+Create a text file
+
+```bash
+echo 'This is some text in a file' > file.txt
+```
+
+To create an MD5 hash:
+
+```bash
+md5sum file.txt > file.txt.md5
+```
+
+To verify the hash
+
+```bash
+md5sum -c file.txt.md5
+```
+
 ### SHA-1
 
 SHA-1 is part of the Secure Hash Algorithm suite of functions, designed by the NSA, published in 1995.
@@ -317,6 +335,26 @@ During the 2000s, a bunch of [theoretical attacks](https://eprint.iacr.org/2005/
   + Major browsers vendor dropped support for SSL certificates that use SHA-1 in 2017.
   + In early 2017, [full collision of SHA-1](https://shattered.io/) was published. Two PDFs were created with same SHA-1 hashes.
   + **MIC or Message Integrity Check** to make sure there is no data corruption in transit to the hash digest.
+
+To create a hash
+
+```bash
+shasum file.txt > file.txt.sha1
+```
+
+To verify sha1
+
+```sh
+shasum -c file.txt.sha1
+```
+
+To create SHA256 hash
+
+```sh
+shasum -a 256 file.txt > file.txt.sha256
+```
+
+For verification, use the same command as above.
 
 ### Defense against hash attacks
 
@@ -521,3 +559,44 @@ For **Full disk encryption or FDE**, we have the number of options:
 
 ![](images/Pasted%20image%2020221012222043.png)
 
+## Generating OpenSSL Public-Private Key pairs
+
+To generate a 2048-bits RSA private key
+
+```bash
+openssl genrsa -out private_key.pem 2048
+```
+
+To generate a public key from the `private_key.pem` file
+
+```bash
+openssl rsa -in private_key.pem -outform PEM -pubout -out public_key.pem
+```
+
+To encrypt a `secret.txt` using public key
+
+```bash
+openssl rsautl -encrypt -pubin -inkey public_key.pem -in secret.txt -out secret.enc
+```
+
+As we have used our own public key for encryption, we can decrypt the file using our private key
+
+```bash
+openssl rsautl -decrypt -inkey private_key.pem -in secre.enc
+```
+
+This will print the contents of the dcrypted file to the screen, which should match the contents of `secret.txt`
+
+### Creating a hash digest
+
+To create the hash digest of the message
+
+```bash
+openssl dgst -sha256 -sign private_key.pem -out secret.txt.sha256 secret.txt
+```
+
+To verify the digest
+
+```bash
+openssl dgst -sha256 -verify public_key.pem -signature secret.txt.sha256 secret.txt
+```

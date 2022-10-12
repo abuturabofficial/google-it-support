@@ -269,4 +269,182 @@ Additional randomized data that's added into the hashing function to generate a 
 
 # Cryptographic Applications
 
-## Public Key Infrastructure
+## Public Key Infrastructure (PKI)
+
+PKI is a system that defines the creation, storage, and distribution of digital certificates. A digital certificate is a file that proves that an entity owns a certain public key.
+
+  + The entity responsible for storing, issuing, and signing digital certificates is call **Certificate authority or CA**.
+  + There's also a **Registration authority, or RA**, that's responsible for verifying the identities of any entities requesting certificates to be signed and stored with the CA.
+  + A central repository is needed to securely store and index keys, and a certificate management system of some sort makes managing access to stored certificates and issuance of certificates easier.
+
+### PKI signing process
+
+Start from the Root Certificate authority, which signs the certificate itself, as no one above it.
+
+![](images/Pasted%20image%2020221012212253.png)
+
+This Root certificate authority can now use the self-signed certificate and the associated private key to begin signing other public keys and issuing certificates.
+
+![](images/Pasted%20image%2020221012211048.png)
+
+A certificate that has no authority as a CA is referred to as an **end-entity** or **leaf certificate**.
+
+  + The [X.509 standard](https://www.ietf.org/rfc/rfc5280.txt) is what defines the format of digital certificates.
+
+The fields defined in X.509 are:
+
+#### Version
+What version of the X.509 standard the certificate adheres to.
+
+#### Serial number
+
+A unique identifier for the certificate assigned by the CA, which allows the CA to manage and identify individual certificates.
+
+#### Certificate Signature Algorithm
+
+This field indicates what public key algorithm is used for the public key and what hashing algorithm is used to sign the certificate.
+
+#### Issuer Name
+
+This field contains information about the authority that signed the certificate.
+
+#### Validity
+
+This contains two subfields – “Not Before” and “Not After” – which define the dates when the certificate is valid for.
+
+#### Subject
+
+This field contains identifying information about the entity the certificate was issued to.
+
+#### Subject Public Key Info
+
+These two subfields define the algorithm of the public key, along with the public key itself.
+
+#### Certificate Signature Algorithm
+
+Same as the Subject Public Key Info field; These two fields must match.
+
+#### Certificate Signature Value
+
+The digital signature data itself.
+
+### SSL/TLS server certificate
+
+This is a certificate that a web server presents to a client as part of the initial secure setup of an SSL, TLS connection.
+
+![](images/Pasted%20image%2020221012211653.png)
+
+### Self-signed certificate
+
+Signed by the same entity that issued the certificate. Signing your own public key using your own with private key.
+
+### SSL/TLS client certificate
+
+As the names implies, these are certificates that are **bound to clients** and are used to **authenticate** the client to the server, allowing access control to an SSL/TLS service.
+
+### Code Signing Certificates
+
+This allows users of these signed applications to verify the signatures and ensure that the application was not tampered with.
+ 
+### Webs of Trust
+
+Individuals are signing each other certificates, after verifying the identity of the persons with agreed upon methods.
+
+![](images/Pasted%20image%2020221012213520.png)
+
+## Cryptography in Action
+
+### HTTPS
+
+The secure version of HTTP, the Hyper Text Transport Protocol.
+
+  + It can also be called HTTP over the TLS.
+  + Even though, TLS is a completely independent protocol from HTTPS.
+
+### TLS
+
+It grants us three things
+
+  1) A secure communication line, which means data being transmitted, is protected from potential eavesdroppers.
+  2) The ability to **authenticate** both parties communicating, though typically only the server is authenticated by the client.
+  3) The **integrity** of communications, meaning there are checks to ensure that messages aren't lost or altered in transit.
+
+To establish a TLS channel, there is a TLS handshake in place.
+
+![](images/Pasted%20image%2020221012214311.png)
+
+The session key is the shared symmetric encryption key used in TLS sessions to encrypt data being sent back and forth.
+
+### Secure Shell (SSH)
+
+A secure network protocol that uses encryption to allow access to a network service over unsecured networks.
+
+  + SSH uses public key cryptography.
+
+### Pretty Good Privacy (PGP)
+
+An encryption application that allows authentication of data, along with privacy from third parties, relying upon asymmetric encryption to achieve this.
+
+## Securing Network Traffic
+
+### Virtual Private Network (VPN)
+
+A mechanism that allows you to remotely connect  a host or network to an internal, private network, passing the data over a public channel, like the internet.
+
+![](images/Pasted%20image%2020221012215407.png)
+
+There are different VPN protocols:
+
+  + IPsec
+
+![](images/Pasted%20image%2020221012215516.png)
+
+IPsec support two modes:
+
+  1) When **transport mode** is used, only the payload of the IP packet is encrypted, leaving the IP headers untouched.
+  2) In **tunnel mode**, the entire IP packet, header payload and all, is encrypted and encapsulated inside a new IP packet with new headers.
+
+  + Layer 2 tunneling protocol or L2TP
+
+It is not an all alone protocol, it is used in conjunction with IPsec protocol.
+
+The **tunnel** is provided by L2TP, which permits the passing of unmodified packets from one network to another. The **secure channel**, on the other hand, is provided by IPsec, which provides confidentiality, integrity, and authentication of data being passed.
+
+The combination of L2TP and IPsec is referred to as **L2TP/IPsec** and was officially standardized in [IETF RFC 3193](https://tools.ietf.org/html/rfc3193)
+
+  + OpenVPN
+
+OpenVPN is an example of LT2p/IPsec.
+
+It uses OpenSSL library to handle key exchange and encryption of data, along with control channels.
+
+OpenVPN can operate over either TCP or UDP, typically over port 1194.
+
+It can either rely on a Layer 3 IP tunnel or a Layer 2 Ethernet tap. The Ethernet tap is more flexible, allowing it to carry a wider range of traffic. 
+
+OpenVPN supports up to 256-bits encryption through OpenSSL library. It runs in user space, so avoid the underlying vulnerabilities of the system.
+
+## Cryptographic Hardware
+
+### TPM or Trusted Platform Module
+
+Another interesting application of cryptography concepts, is the **Trusted Platform Module or TPM**. This is a hardware device that's typically integrated into the hardware of a computer, that's a dedicated crypto processor.
+
+TPM offers:
+
+  + Secure generation of keys
+  + Random number generation
+  + Remote attestation
+  + Data binding and sealing
+
+**There's been a report of a [physical attack on a TPM](https://gcn.com/Articles/2010/02/02/Black-Hat-chip-crack-020210.aspx) which allowed a security researcher to view and access the entire contents of a TPM**.
+
+For **Full disk encryption or FDE**, we have the number of options:
+
+  + PGP
+  + BitLocker
+  + Filevault 2
+  + dm-crypt
+
+![](images/Pasted%20image%2020221012222043.png)
+

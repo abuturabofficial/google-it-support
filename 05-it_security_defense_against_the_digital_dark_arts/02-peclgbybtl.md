@@ -265,23 +265,8 @@ Additional randomized data that's added into the hashing function to generate a 
   + Modern systems use 128-bits salt.
   + It means there are 2^128 possible salt combination.
 
-![[Pasted image 20221012163522.png]]
+![](images/Pasted%20image%2020221012173813.png)
 
 # Cryptographic Applications
 
 ## Public Key Infrastructure
-
-![[images/Pasted image 20221012171739.png]]
-
-
-
-![[./images/Pasted image 20221012171739.png]]
-
-![[images/Pasted image 20221012172033.png]]
-![[images/Pasted image 20221012172328.png]]
-
-![](assets/02-peclgbybtl/image-20221012172643971.png)
-
-
-![A test image](./assets/02-peclgbybtl/image-20221012172643971.png)
-

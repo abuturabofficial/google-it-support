@@ -24,7 +24,7 @@ The underlying logic of the process that's used to convert the plaintext into ci
 
 These algorithms are usually very complex. But there are also simple algorithms as well.
 
-![[Pasted image 20221012084503.png]]
+![](images/Pasted%20image%2020221012084503.png)
 
 **Security through obscurity** is a principle where underlying encryption algorithm is also kept hidden for security purposes. But you shouldn't rely on it, as once the underlying mechanism is discovered, your whole security will wash away.
 
@@ -85,7 +85,7 @@ An encryption mechanism that replaces parts of your plaintext with ciphertext.
 
   + E.g., Caesar cipher, ROT13 etc.
 
-![[Pasted image 20221012142847.png]]
+![](images/Pasted%20image%2020221012142847.png)
 
 ### Stream cipher
 
@@ -97,7 +97,7 @@ Takes a stream of input and encrypts the stream one character or one digit at a 
 
 The cipher takes data in, places it into a bucket or block of data that's a fixed size, then encodes that entire block as one unit.
 
-![[Pasted image 20221012143255.png]]
+![](images/Pasted%20image%2020221012143255.png)
 
 ## Symmetric Encryption Algorithms
 
@@ -128,7 +128,7 @@ A symmetric stream cipher that gained widespread adoption because of its simplic
 
   + Abandoned due to inheritance weaknesses.
 
-![[Pasted image 20221012144928.png]]
+![](images/Pasted%20image%2020221012144928.png)
 
 [RC4 Exists No More](https://www.rc4nomore.com/)
 
@@ -190,7 +190,7 @@ Let's assume we have two people who would like to communicate over an unsecured 
 
 A public-key encryption system that uses the algebraic structure of elliptic curves over finite fields to generate secure keys.
 
-![[Pasted image 20221012152354.png]]
+![](images/Pasted%20image%2020221012152354.png)
 
   + The benefit of elliptic curve based encryption systems is that they are able to achieve security similar to traditional public key systems with smaller key sizes. So, for example, a 256 bit elliptic curve key, would be comparable to a 3,072 bit RSA key. This is really beneficial since it reduces the amount of data needed to be stored and transmitted when dealing with keys. 
   + Both Diffie-Hellman and DSA have elliptic curve variants, referred to as **ECDH** and **ECDSA**, respectively.
@@ -202,7 +202,7 @@ A public-key encryption system that uses the algebraic structure of elliptic cur
 # Hashing
 A type of function or operation that takes in an arbitrary data input and maps it to an output of fixed size, called a hash or digest.
 
-![[Pasted image 20221012160358.png]]
+![](images/Pasted%20image%2020221012160358.png)
 
   + You feed in any amount of data into a hash function, and the resulting output will always be the same size. But the output should be **unique to the input**, such that two different inputs should never yield the same output.
   + Hashing can also be used to identify duplicate data sets in databases or archives to speed up searching tables, or to remove duplicate data to save space.
@@ -214,7 +214,7 @@ A type of function or operation that takes in an arbitrary data input and maps i
 
 Two different inputs mapping to the same output.
 
-![[Pasted image 20221012161018.png]]
+![](images/Pasted%20image%2020221012161018.png)
 
 ## Hashing Algorithms
 
@@ -254,7 +254,7 @@ The passwords should not be stored in plaintext, instead they should be hashed a
   + Another common methods to help raise the computational bar and protect against brute force attacks is to run the password through the hashing function multiple times, sometimes through thousands of iterations.
   + A **rainbow** table is ta table of precalculated hashes.
 
-![[Pasted image 20221012163307.png]]
+![](images/Pasted%20image%2020221012174138.png)
 
   + To protect against these precalculated rainbow tables, **password salt** come into play.
 

@@ -45,13 +45,11 @@ Someone who attempts to break into or exploit a system.
   + White-hat hackers
   + Black-hat hackers
 
-![[Pasted image 20221012063718.png]]
+![](images/Pasted%20image%2020221012063718.png)
 
 ### Attack 
 
 An actual attempt at causing harm to a system.
-
-![[Pasted image 20221012063917.png]]
 
 ## Malicious Software
 
@@ -59,7 +57,7 @@ An actual attempt at causing harm to a system.
 
 A type of malicious software that can be used to obtain your sensitive information, or delete or modify files.
 
-![[Pasted image 20221012063917.png]]
+![](images/Pasted%20image%2020221012063917.png)
 
 ### Adware
 
@@ -69,7 +67,7 @@ Software that displays advertisements and collects data.
 
 Malware that disguises itself as one thing but does something else.
 
-![[Pasted image 20221012064405.png]]
+![](images/Pasted%20image%2020221012064405.png)
 
 ### Spyware
 
@@ -131,7 +129,7 @@ When all employees are on the lookout for suspicious files, it’s much easier t
 
 Designed to utilize the power of the internet-connected machines to perform some distributed function.
 
-![[Pasted image 20221012065853.png]]
+![](images/Pasted%20image%2020221012065853.png)
 
 ### Backdoor
 
@@ -141,7 +139,7 @@ A way to get into a system if the other methods to get in the system aren't allo
 
 A collection of software or tools that an Admin would use.
 
-![[Pasted image 20221012070117.png]]
+![](images/Pasted%20image%2020221012070117.png)
 
 ### Logic bomb
 
@@ -161,7 +159,7 @@ It works by tricking the DNS server to serve, fake DNS request.
 
 **Man-in-the-middle attack** is an attack that places the attacker in the middle of two hosts that think they're communicating directly with each other.
 
-![[Pasted image 20221012072252.png]]
+![](images/Pasted%20image%2020221012072252.png)
 
 The methods of Man-in-the-middle attack are:
 
@@ -173,33 +171,33 @@ The methods of Man-in-the-middle attack are:
 
 An access point that is installed on the network without the network administrator's knowledge.
 
-![[Pasted image 20221012072558.png]]
+![](images/Pasted%20image%2020221012072558.png)
 
 ### Evil Twin
 
 The premise of an evil twin attack is for you to connect to a network that is identical to yours. This identical network is our network's evil twin and is controlled by our attacker.
 
-![[Pasted image 20221012072748.png]]
+![](images/Pasted%20image%2020221012072748.png)
 
 ## Denial-of-service (DoS) attack
 
 An attack that tries to prevent access to a service for legitimate users by overwhelming the network or server.
 
-![[Pasted image 20221012073249.png]]
+![](images/Pasted%20image%2020221012073249.png)
 
 1) The ping of death or **POD** is an example of DoS attack, where the attacker sends the large number of pings to take down the server.
 
-![[Pasted image 20221012073404.png]]
+![](images/Pasted%20image%2020221012073404.png)
 
 2) Another example is a **ping flood**, sends tons of ping packets to a system. More specifically, it sends **ICMP** echo requests.
 
-![[Pasted image 20221012073556.png]]
+![](images/Pasted%20image%2020221012073556.png)
 
 3) Similar is a **SYN flood**, to make a TCP connection a client needs to send a **SYN** packet to a server it wants to connect to. Next, the server sends back a **SYN-ACK** message, then the client sends in ACK message.
 
 In a SYN flood, the server is being bombarded with SYN packets.
 
-![[Pasted image 20221012073938.png]]
+![](images/Pasted%20image%2020221012073938.png)
 
 During SYN flood, the TCP connection remains open, so it is also called a **Half-open attack**.
 
@@ -228,7 +226,7 @@ A type of injection attack where the attacker can insert malicious code and targ
 
 ### SQL injection attack
 
-![[Pasted image 20221012080725.png]]
+![](images/Pasted%20image%2020221012080725.png)
 
 ## Password Attacks
 
@@ -238,11 +236,11 @@ Utilize software like password-crackers that try and guess your password.
 
 A Catchpa, can save your website from brute force attack.
 
-![[Pasted image 20221012080902.png]]
+![](images/Pasted%20image%2020221012080902.png)
 
 ### Dictionary Attack
 
-![[Pasted image 20221012081025.png]]
+![](images/Pasted%20image%2020221012081025.png)
 
 ## Deceptive Attacks
 
@@ -250,27 +248,27 @@ A Catchpa, can save your website from brute force attack.
 
 An attack method that relies heavily on interactions with humans instead of computers.
 
-![[Pasted image 20221012081226.png]]
+![](images/Pasted%20image%2020221012081226.png)
 
 The popular types of social engineering attacks:
 
   + Phishing attack – Use of email or text messaging
 
-![[Pasted image 20221012081913.png]]
+![](images/Pasted%20image%2020221012081913.png)
 
   + Spear phishing — Attack individuals
 
-![[Pasted image 20221012081956.png]]
+![](images/Pasted%20image%2020221012081956.png)
 
   + Email Spoofing
 
-![[Pasted image 20221012082138.png]]
+![](images/Pasted%20image%2020221012082138.png)
 
   + Baiting – Entice a victim to do something
 
   + Tailgating
 
-![[Pasted image 20221012082328.png]]
+![](images/Pasted%20image%2020221012082328.png)
 
   + Whaling – Spear phishing a high value target
   + Vishing - Use of Voice over IP (VoIP)

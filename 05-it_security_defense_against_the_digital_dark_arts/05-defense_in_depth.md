@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [System Hardening](#system-hardening)
+  - [Intro to Defense in Depth](#intro-to-defense-in-depth)
+  - [Disabling Unnecessary Components](#disabling-unnecessary-components)
+    - [Attack vector](#attack-vector)
+    - [Attack surface](#attack-surface)
+  - [Host-Based Firewall](#host-based-firewall)
+  - [Logging and Auditing](#logging-and-auditing)
+  - [Antimalware Protection](#antimalware-protection)
+  - [Disk Encryption](#disk-encryption)
+    - [Full-disk encryption (FDE)](#full-disk-encryption-fde)
+      - [Key Escrow](#key-escrow)
+- [Application Hardening](#application-hardening)
+  - [Software Patch Management](#software-patch-management)
+  - [Browser Hardening](#browser-hardening)
+    - [Identifying trusted versus untrusted sources](#identifying-trusted-versus-untrusted-sources)
+    - [Secure connections and sites](#secure-connections-and-sites)
+  - [Application Policies](#application-policies)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # System Hardening
 
 ## Intro to Defense in Depth

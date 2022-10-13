@@ -57,6 +57,12 @@ A **host-based firewall** plays a big part in reducing what's accessible to an o
 
 If the users of the systems have administrator rights, then they have the ability to **change firewall rules and configuration**.
 
+### Bastion Hosts
+
+Bastion hosts are specially hardened and minimized in terms of what is permitted to run on them. Typically, bastion hosts are expected to be exposed to the internet, so special attention is paid to hardening and locking them down to minimize the chances of compromise.
+
+  + These are servers that are specifically hardened and minimized to reduce what's permitted to run on them.
+
 ## Logging and Auditing
 
 Security Information and Event Management (SIEM) system is a centralized log management system.

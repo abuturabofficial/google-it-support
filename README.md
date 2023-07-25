@@ -1,5 +1,7 @@
 # Google IT Support Professional Certificate
 
+## **Note:** I have moved to zettelkasten note taking method, and this repo will no longer be updated. Currently, I'm not sharing my zettelkasten vault publicly. (Though this specialization was compeleted before moving to the zettelkasten method, and currently need no improvement.)
+
 My notes of "Google IT Support Professional Certificate" specialization offered by [Google](https://grow.google).
 
 It includes following individual courses:
